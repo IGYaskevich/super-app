@@ -1,0 +1,16 @@
+@import "src/static/styles/variables";
+
+.louder {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: $DarkColor;
+  position: fixed;
+  display: flex;
+  z-index: 100;
+
+  &--content {
+    margin: auto;
+  }
+}

@@ -1,0 +1,22 @@
+@import "src/static/styles/variables";
+
+.post-list {
+  width: 100%;
+  min-height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &--notFound {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+  }
+
+  &--paginate {
+    width: 100%;
+    margin: 10px 0 0 0;
+    @include displayCenter;
+  }
+}

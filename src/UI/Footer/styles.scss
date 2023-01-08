@@ -1,0 +1,54 @@
+@import "../../static/styles/variables";
+
+.footer {
+  width: 100%;
+  border: 1px solid;
+  padding: 20px;
+  background-color: $DarkColor;
+
+
+  &--container {
+    height: 100%;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &--content-items {
+    display: flex;
+  }
+
+  &--content {
+    min-width: 50px;
+    @include marginRightIndent;
+
+    &--title {
+      @include displayCenter;
+      padding: 5px 0;
+      color: $WhiteColor;
+    }
+
+    &--item {
+      color: $WhiteColor;
+      margin: 0 0 5px 0;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+
+    &--links {
+      display: flex;
+    }
+
+    &--link {
+      @include marginRightIndent;
+    }
+  }
+
+  &--label{
+    color: $WhiteColor;
+  }
+}

@@ -1,0 +1,17 @@
+.regular-alert {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  display: flex;
+
+  &--content {
+    margin: auto;
+    background: white;
+    border-radius: 12px;
+    min-height: 56px;
+    min-width: 300px;
+  }
+}

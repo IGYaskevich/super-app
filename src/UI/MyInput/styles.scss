@@ -1,0 +1,12 @@
+@import "./src/static/styles/variables";
+
+.my-input {
+  width: 100%;
+  height: 40px;
+
+  &--error {
+    padding: 0 0 0 5px;
+    font-size: 12px;
+    color: $ErrorColor;
+  }
+}

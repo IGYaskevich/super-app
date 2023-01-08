@@ -1,0 +1,17 @@
+$DarkColor: #24292f;
+$WhiteColor: #ffffff;
+$ErrorColor: #d32f2f;
+
+@mixin displayCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin marginRightIndent {
+  margin: 0 10px 0 0;
+
+  &:last-child{
+    margin: 0;
+  }
+}
