@@ -1,0 +1,33 @@
+@import "./src/static/styles/variables";
+
+.page {
+  width: 200px;
+  margin: 0 10px 10px 0;
+
+  &--item {
+    display: flex;
+    flex-direction: column;
+
+    &--img {
+      @include displayCenter;
+      width: 100%;
+      height: 100px;
+      margin: 0 0 9px 0;
+      background-color: $BlueColor;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px -1px $DarkColor;
+      cursor: pointer;
+      transition: 1s ease;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 1s ease;
+      }
+    }
+
+    &--title {
+      padding: 0 0 0 5px;
+      cursor: default;
+    }
+  }
+}

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { Router } from "./routes/Routes";
 
-import { MainLayout } from "./UI/MainLayout";
+import { MainLayout } from "./components/MainLayout";
 
 import "./index.scss";
 

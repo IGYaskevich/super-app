@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-import { PostsContainer } from "./PostContainer";
+import { PostsContainer } from "./container";
 
 import "../../static/styles/main-page-container.scss";
 

@@ -32,7 +32,7 @@ export const Footer = () => {
             <div className={"footer--content--links"}>
               {state.iconsList.map((key) => {
                 const IconFC = ICONS_LINK[key];
-                const link = variable.MyLiks[key];
+                const link = variable.MyLinks[key];
                 return (
                   <a
                     href={link}

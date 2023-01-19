@@ -33,6 +33,7 @@
     &--item {
       color: $WhiteColor;
       margin: 0 0 5px 0;
+      cursor: default;
 
       &:last-child {
         margin: 0;
@@ -48,7 +49,8 @@
     }
   }
 
-  &--label{
+  &--label {
     color: $WhiteColor;
+    cursor: default;
   }
 }

@@ -4,9 +4,9 @@ import axios from "axios";
 
 import { PostManage } from "../components/PostManage";
 import { PostList } from "../components/PostList";
-import { AlertWrapper } from "../../../UI/AlertWrapper";
+import { AlertWrapper } from "../../../components/AlertWrapper";
 import { PostForm } from "../components/PostForm";
-import { Louder } from "../../../UI/Louder";
+import { Louder } from "../../../components/Louder";
 import { OptionType } from "../../../UI/MySelect";
 
 import { PostListType } from "../types";
@@ -53,8 +53,8 @@ export const PostsContainer = () => {
 
   const createPost = (title: string, body: string) => {
     const newPostList = [
-      ...state.postList,
       { title: title, body: body, id: state.postList.length + 1 },
+      ...state.postList,
     ];
     setState({ ...state, postList: newPostList, cratePostAlert: false });
   };
@@ -116,7 +116,7 @@ export const PostsContainer = () => {
     state.sortText.length >= 3 ? state.sortedPostList : state.postList;
 
   return (
-    <div className={"posts-container"} id={"posts-PostContainer"}>
+    <div className={"posts"} id={"posts-container"}>
       <PostManage
         options={state.options}
         sortText={state.sortText}

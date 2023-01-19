@@ -5,8 +5,7 @@
   min-height: 290px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 
   &--notFound {
     text-align: center;

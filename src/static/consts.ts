@@ -3,7 +3,7 @@ export const myEmail = `ignatyskevich@gmail.com`;
 export const myLocation = `Almaty, Kazakhstan`;
 export const myTelegram = `@IgnatYaskevich`;
 
-export const MyLiks = {
+export const MyLinks = {
   gitGub: "https://github.com/IgnatYaskevich98",
   telegram: "https://t.me/IgnatYaskevich",
   cv: "https://www.linkedin.com/feed/update/urn:li:activity:7017796422804627456/",
