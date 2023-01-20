@@ -5,7 +5,7 @@ import { Post } from "../Post";
 import { PostListType } from "../../types";
 
 import "./styles.scss";
-import { MyPagination } from "../../../../UI/MyPagination";
+import { MyPagination } from "../../../../components/UI/MyPagination";
 
 interface IProps {
   countPages: number;

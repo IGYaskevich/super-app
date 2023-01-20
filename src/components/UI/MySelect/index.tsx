@@ -1,7 +1,7 @@
 import { FC, memo, useState } from "react";
 
 import * as MUI from "@mui/material";
-import { themeMUI } from "../../static/themeMUI";
+import { themeMUI } from "../../../static/themeMUI";
 
 import "./styles.scss";
 

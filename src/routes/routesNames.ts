@@ -1,7 +1,8 @@
-type RoutesKeyType = "HOME" | "POST"
-type RoutesType = Record<RoutesKeyType, string>
+type RoutesKeyType = "HOME" | "POST" | "PET_PROJECTS";
+type RoutesType = Record<RoutesKeyType, string>;
 
 export const ROUTES_NAMES: RoutesType = {
-    HOME: "/",
-    POST: "/post-page",
+  HOME: "/",
+  POST: "/posts",
+  PET_PROJECTS: "/pet-projects",
 };

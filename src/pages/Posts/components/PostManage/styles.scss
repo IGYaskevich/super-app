@@ -1,12 +1,17 @@
 .post-manage {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin: 0 0 20px 0;
+
+  &--items {
+    display: flex;
+  }
 
   &--item {
     margin: 0 15px 0 0;
     width: 150px;
+    text-decoration: none;
 
     &:last-child {
       margin: 0;

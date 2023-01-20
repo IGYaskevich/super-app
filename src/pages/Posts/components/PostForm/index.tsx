@@ -1,7 +1,7 @@
 import React, { FC, memo, useCallback, useState } from "react";
 
-import { MyInput } from "../../../../UI/MyInput";
-import { MyButton } from "../../../../UI/MyButton";
+import { MyInput } from "../../../../components/UI/MyInput";
+import { MyButton } from "../../../../components/UI/MyButton";
 
 import "./styles.scss";
 

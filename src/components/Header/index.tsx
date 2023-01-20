@@ -10,8 +10,8 @@ export const Header = () => {
         <NavLink className={"header--link"} to={ROUTES_NAMES.HOME}>
           Home
         </NavLink>
-        <NavLink className={"header--link"} to={ROUTES_NAMES.POST}>
-          Posts
+        <NavLink className={"header--link"} to={ROUTES_NAMES.PET_PROJECTS}>
+          Training Apps
         </NavLink>
       </div>
     </div>

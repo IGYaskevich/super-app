@@ -1,12 +1,17 @@
 @import 'static/styles/variables';
 
+@font-face {
+  font-family: SourceSansPro;
+  src: url('static/fonts/SourceSansPro-Regular.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: SourceSansPro, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  padding: 0px;
-}
 

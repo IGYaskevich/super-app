@@ -1,0 +1,47 @@
+@import "../../static/styles/variables";
+
+.training-apps {
+  margin: 20px 0;
+  width: 100%;
+
+  &--title {
+    margin: 20px 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  &--projects {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+.gitHub-app {
+  box-shadow: 0 5px 10px -4px $DarkColor;
+  border-radius: 10px;
+  cursor: default;
+  margin: 0 10px 10px 0;
+
+  &--link {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: $BlueColor;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -1px $DarkColor;
+    cursor: pointer;
+    transition: 1s ease;
+
+    &:hover {
+      @include transformHover
+    }
+  }
+
+  &--title {
+    padding: 10px;
+
+  }
+}

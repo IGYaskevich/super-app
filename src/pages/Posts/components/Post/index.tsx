@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-import { MyButton } from "../../../../UI/MyButton";
+import { MyButton } from "../../../../components/UI/MyButton";
 
 import { PostListType } from "../../types";
 
@@ -35,7 +35,7 @@ export const Post: FC<IProps> = (props) => {
           color={"primary"}
           title={"Remove"}
           method={handleRemove}
-          id={"post-page-button-remove"}
+          id={"post-TrainingApp-button-remove"}
         />
       </div>
     </Paper>

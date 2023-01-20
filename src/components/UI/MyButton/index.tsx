@@ -1,7 +1,7 @@
 import React, { FC, memo, ReactNode } from "react";
 
 import { Button, ThemeProvider } from "@mui/material";
-import { themeMUI } from "../../static/themeMUI";
+import { themeMUI } from "../../../static/themeMUI";
 
 import style from "./styles.module.scss";
 

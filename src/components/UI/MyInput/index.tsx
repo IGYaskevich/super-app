@@ -1,7 +1,7 @@
 import React, { ChangeEvent, FC, FocusEvent, memo, useState } from "react";
 
 import { TextField, ThemeProvider } from "@mui/material";
-import { themeMUI } from "../../static/themeMUI";
+import { themeMUI } from "../../../static/themeMUI";
 
 import "./styles.scss";
 

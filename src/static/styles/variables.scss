@@ -2,6 +2,7 @@ $DarkColor: #24292f;
 $WhiteColor: #ffffff;
 $ErrorColor: #d32f2f;
 $BlueColor: #006eed;
+$YellowColor: #f1ca1e;
 
 @mixin displayCenter {
   display: flex;
@@ -12,7 +13,13 @@ $BlueColor: #006eed;
 @mixin marginRightIndent {
   margin: 0 10px 0 0;
 
-  &:last-child{
+  &:last-child {
     margin: 0;
   }
 }
+
+@mixin transformHover {
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
