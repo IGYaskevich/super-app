@@ -1,0 +1,18 @@
+@import "./src/static/styles/variables";
+
+.about-item {
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px -1px $DarkColor;
+  color: $DarkColor;
+  cursor: default;
+  margin: 0 10px 10px 0;
+
+  &--title {
+    margin: 0 0 10px 0
+  }
+
+  &--description {
+  }
+}

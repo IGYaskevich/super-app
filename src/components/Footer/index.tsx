@@ -18,14 +18,14 @@ export const Footer = () => {
         <div className={"footer--content-items"}>
           <div className={"footer--content"}>
             <div className={"footer--content--item"}>
-              <strong>Phone: </strong> {variable.myNumber}
+              {`Phone: ${variable.myNumber}`}
             </div>
             <div className={"footer--content--item"}>
-              <strong>Email: </strong> {variable.myEmail}
+              {`Email: ${variable.myEmail}`}
             </div>
 
             <div className={"footer--content--item"}>
-              <strong>Current Location: </strong> {variable.myLocation}
+              {`Current Location: ${variable.myLocation}`}
             </div>
           </div>
           <div className={"footer--content"}>
@@ -49,10 +49,10 @@ export const Footer = () => {
           </div>
         </div>
 
-        <strong className={"footer--label"}>
+        <div className={"footer--label"}>
           © 2023, Training App <br />
           creator Frontend Developer Ignat Yaskevich
-        </strong>
+        </div>
       </div>
     </div>
   );

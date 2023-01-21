@@ -34,7 +34,7 @@ export const PetProjects = () => {
       {
         title: "Search GitHub Users",
         description: "",
-        id: "pokemon-shop",
+        id: "search-gitHub-users",
         link: "https://github.com/IgnatYaskevich98/SSamerTask",
         linkApp: "",
         IconFC: ICONS.githubCircle,
@@ -77,14 +77,8 @@ export const PetProjects = () => {
               const { title, id, link, IconFC } = app;
 
               return (
-                <div className={"gitHub-app"}>
-                  <a
-                    href={link}
-                    target="_blank"
-                    rel="noreferrer"
-                    key={id}
-                    id={id}
-                  >
+                <div className={"gitHub-app"} key={id} id={id}>
+                  <a href={link} target="_blank" rel="noreferrer">
                     <div className={"gitHub-app--link"}>
                       <IconFC />
                     </div>

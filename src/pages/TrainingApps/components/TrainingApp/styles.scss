@@ -3,8 +3,7 @@
 .training-app {
   width: 200px;
   margin: 0 10px 10px 0;
-  box-shadow: 0 5px 10px -4px $DarkColor;
-  border-radius: 10px;
+  @include boxShadow;
   padding: 0 0 5px 0;
 
   &--item {
@@ -17,8 +16,7 @@
       height: 100px;
       margin: 0 0 9px 0;
       background-color: $YellowColor;
-      border-radius: 10px;
-      box-shadow: 0 5px 10px -1px $DarkColor;
+      @include boxShadow;
       cursor: pointer;
       transition: 1s ease;
 

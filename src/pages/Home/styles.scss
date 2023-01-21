@@ -1,0 +1,10 @@
+@import "../../static/styles/variables";
+
+.home {
+  display: flex;
+  flex-direction: column;
+
+  &--about-items {
+    display: flex;
+  }
+}
