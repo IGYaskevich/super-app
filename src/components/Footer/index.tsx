@@ -40,6 +40,7 @@ export const Footer = () => {
                     className={"footer--content--link"}
                     key={key}
                     rel="noreferrer"
+                    title={key}
                   >
                     <IconFC />
                   </a>
