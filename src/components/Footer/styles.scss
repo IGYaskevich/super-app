@@ -3,14 +3,13 @@
 .footer {
   width: 100%;
   border: 1px solid;
-  padding: 20px;
+  padding: 30px;
   background-color: $DarkColor;
 
 
   &--container {
     height: 100%;
     width: 100%;
-    max-width: 1300px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
