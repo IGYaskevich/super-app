@@ -1,6 +1,6 @@
 import { AboutItem } from "./components/AboutItem";
 
-import { Description } from "../../static/consts";
+import { Description } from "../../static/variables";
 
 import "../../static/styles/main-container.scss";
 import "./styles.scss";

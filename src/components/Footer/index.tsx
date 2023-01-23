@@ -1,7 +1,9 @@
 import { useState } from "react";
 
-import * as variable from "../../static/consts";
+import * as variable from "../../static/variables";
 import { ICONS_LINK } from "../../static/icons";
+
+import { formattedPhone } from "../../static/functions/formattedPhone";
 
 import "./styles.scss";
 
@@ -18,7 +20,7 @@ export const Footer = () => {
         <div className={"footer--content-items"}>
           <div className={"footer--content"}>
             <div className={"footer--content--item"}>
-              {`Phone: ${variable.myNumber}`}
+              {`Phone: ${formattedPhone(variable.myNumber)}`}
             </div>
             <div className={"footer--content--item"}>
               {`Email: ${variable.myEmail}`}
