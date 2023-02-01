@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/super-app/static/css/main.23c95ceb.css",
-    "main.js": "/super-app/static/js/main.8f65d8e1.js",
+    "main.css": "/super-app/static/css/main.23d52384.css",
+    "main.js": "/super-app/static/js/main.57f4c548.js",
     "static/media/SourceSansPro-Regular.ttf": "/super-app/static/media/SourceSansPro-Regular.df87f53caf449a3b7572.ttf",
     "static/media/list.svg": "/super-app/static/media/list.0d1db38c9627ecf5777686e335aaf742.svg",
     "static/media/cv.svg": "/super-app/static/media/cv.cbf0ab0cc13a38b06daa4bbf9ba5010c.svg",
@@ -9,17 +9,18 @@
     "static/media/github-circle.svg": "/super-app/static/media/github-circle.cd09ef10ea29d1d709b468bc35faf808.svg",
     "static/media/pokemon.svg": "/super-app/static/media/pokemon.d37501ded3c312697fb0e3499f5f0146.svg",
     "static/media/github.svg": "/super-app/static/media/github.e1ad93e10a3177a2ab819e5f3af68ed4.svg",
+    "static/media/app-next.svg": "/super-app/static/media/app-next.b7eda711f34d4ee9d530f9d8354fadb8.svg",
     "static/media/telegram.svg": "/super-app/static/media/telegram.1bfbc2ec39d06ae9bbef2660fac2d96f.svg",
     "static/media/more-svgrepo.svg": "/super-app/static/media/more-svgrepo.e71e1abe4d8a81765512990b82dc116e.svg",
     "static/media/linkedin.svg": "/super-app/static/media/linkedin.e5e6cb9ab6404df5695424df62fc64a3.svg",
     "static/media/louder.svg": "/super-app/static/media/louder.1cfcadf5b41e939f18495a460d3472c4.svg",
     "static/media/pen.svg": "/super-app/static/media/pen.643d07f74b269ecc8799adaef587aa65.svg",
     "index.html": "/super-app/index.html",
-    "main.23c95ceb.css.map": "/super-app/static/css/main.23c95ceb.css.map",
-    "main.8f65d8e1.js.map": "/super-app/static/js/main.8f65d8e1.js.map"
+    "main.23d52384.css.map": "/super-app/static/css/main.23d52384.css.map",
+    "main.57f4c548.js.map": "/super-app/static/js/main.57f4c548.js.map"
   },
   "entrypoints": [
-    "static/css/main.23c95ceb.css",
-    "static/js/main.8f65d8e1.js"
+    "static/css/main.23d52384.css",
+    "static/js/main.57f4c548.js"
   ]
 }
